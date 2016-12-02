@@ -1,1 +1,89 @@
-Name,TypeJunctions,WLFPCoyote,PLCgrizzly,BEARProspects,WLFPJunction Buttes,WLFPLamar,PLCpup,WLF966M,WLF964M,WLFyearling,WLFProspect,WLFPBlacktail,PLCSlough,PLCBuffaolo Ford,PLC
+Name,Type
+bear,BEAR
+grizzly,BEAR
+eagles,BIRD
+magpies,BIRD
+ravens,BIRD
+coyotes,COY
+Cow Elk,Elk
+bull,MOOSE
+moose,MOOSE
+Alum Creek,PLC
+Antelope,PLC
+Blacktail,PLC
+Blacktail,PLC
+Bob's Knob,PLC
+Boulder,PLC
+Buffalo Ford,PLC
+Confluence,PLC
+Coyote,PLC
+Crystal Creek,PLC
+Cub Creek,PLC
+Divide Ridge,PLC
+Elk Creek,PLC
+Fishermen's,PLC
+Fishermen's Pullout,PLC
+Footbridge,PLC
+Geyser Basin,PLC
+Hayden Valley,PLC
+Hellroaring,PLC
+Hitching Post,PLC
+Hubbard Hill,PLC
+Jasper Bench,PLC
+Junction Lake,PLC
+Lamar,PLC
+Lamar Canyon West,PLC
+Little America,PLC
+Long Pullout,PLC
+Mary Mountain Trail,PLC
+Nine Mile,PLC
+Peregrines,PLC
+Ranger Hill,PLC
+Round Prairie,PLC
+Skyline,PLC
+Slough,PLC
+South Entrance,PLC
+Specimen,PLC
+Name,Type
+712M,WLF
+763M,WLF
+763M,WLF
+821F,WLF
+907F,WLF
+925M,WLF
+926F,WLF
+949M,WLF
+964M,WLF
+964M,WLF
+964M,WLF
+966M,WLF
+966M,WLF
+966M,WLF
+969F,WLF
+996M,WLF
+Black Bar,WLF
+pup,WLF
+pups,WLF
+yearling,WLF
+Canyons,WLFP
+Junction Buttes,WLFP
+Junctions,WLFP
+Prospect,WLFP
+Prospect 996M Group,WLFP
+Prospects,WLFP
+Wapiti,ELK
+Picnic,PLC
+Hellroaring,PLC
+grizzly,BEAR
+Cache Valley,PLC
+Specimen Ridge,PLC
+Footbridge,PLC
+Dead Puppy Hill,PLC
+Mollies,WLFP
+Cascade Meadow,PLC
+Mollies Pack,WLFP
+Fountain Flats,PLC
+712M,WLF
+Cascade Lake,PLC
+Footbridge,PLC
+LittleT,WLF
