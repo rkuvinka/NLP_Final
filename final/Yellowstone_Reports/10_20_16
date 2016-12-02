@@ -1,0 +1,384 @@
+
+
+<HTML>
+<HEAD>
+	<TITLE> Yellowstone Reports </TITLE>
+	<LINK HREF="styles.css" REL="stylesheet">
+	<STYLE TYPE="text/css">
+		.slideshow { height: 100px; width: 800px }
+		.slideshow img { padding: 0px; border: 0px solid #000; }
+	</STYLE>
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+</HEAD>
+
+
+
+
+<!-- <SCRIPT TYPE="text/javascript" src="jquery-1.3.2.min.js"></SCRIPT> -->
+
+
+<!-- <SCRIPT TYPE="text/javascript" src="/reflection.js"></SCRIPT> -->
+<SCRIPT TYPE="text/javascript" src="/jquery-1.4.js"></SCRIPT>
+<SCRIPT TYPE="text/javascript" src="jquery.blockUI.js"></SCRIPT>
+<SCRIPT TYPE="text/javascript" src="/jquery.cycle.all.2.72.js"></SCRIPT>
+<SCRIPT TYPE="text/javascript">
+
+//http://malsup.com/jquery/block/#page
+$(function($) {
+
+	// unblock when ajax activity stops 
+	$().ajaxStop($.unblockUI);
+	
+	//function test() {
+	//	$.ajax({ url: 'about-oconnells-nature-prints.php', cache: false }); 
+	//}
+
+	$(document).ready(function() {
+		$('#stall').click(function() {
+			$.blockUI({ message: '<BR><SPAN STYLE="font: 12pt verdana, arial, sans-serif; color: #664400; font-weight: bold">Processing payment...please wait</SPAN><BR><BR>' });
+			//test();
+		});
+
+
+    $('.slideshow').cycle({
+     		// choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		fx: 'fade', 
+    		speed:  4200 
+	});
+
+	});
+
+});
+
+
+
+function jumpPage(newLoc) {
+	newPage = newLoc.options[newLoc.selectedIndex].value;
+	if ( newPage != "" ) {
+		location.href = newPage;
+	}
+}
+
+</script>
+
+
+<BODY TOPMARGIN=0 LEFTMARGIN=0 MARGINHEIGHT=0 MARGINWIDTH=0 BGCOLOR="#FFFFFF" BACKGROUND="images/brown_backer.gif">
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BACKGROUND="images/brown_backer.gif"><TR><TD>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="black" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1"></TD></TR></TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" width=1028>
+	<TR valign=top>
+		<TD width=446><IMG SRC="images/yellowstone_report.gif" WIDTH="446" HEIGHT="56"></TD>
+		<TD align=right style="font-size:8pt; font-weight:bold; color:white; padding-top:5px; padding-right:5px;">Produced by The Wild Side LLC</TD>
+	</TR>
+</TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="black" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1"></TD></TR></TABLE>
+
+
+
+<!-- http://www.malsup.com/jquery/cycle/ -->
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BACKGROUND="images/brown_backer.gif">
+	<TR>
+		<TD>
+		<DIV CLASS="slideshow" ID="rotater" STYLE="display:none">
+									<IMG SRC="images/banners/99.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/109.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/49.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/81.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/98.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/107.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/106.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/100.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/110.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/104.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/102.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/58.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/101.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/63.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/111.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/94.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/46.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/95.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/55.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/59.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/93.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/54.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/108.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/50.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/91.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/89.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/74.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/82.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/103.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/92.jpg" WIDTH="1028" HEIGHT="100">
+							</DIV>
+		</TD>
+	</TR>
+</TABLE>
+
+
+
+</TD></TR></TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="black" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1"></TD></TR></TABLE>
+
+
+<TABLE WIDTH="100%" BORDER=0 CELLPADDING=3 CELLSPACING=0 BGCOLOR="#006600"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="1020">
+	<TR><FORM ACTION="/login.php" METHOD="post">
+		<TD WIDTH="30"><IMG SRC="images/spacer.gif" WIDTH="30" HEIGHT="16"></TD>
+		<TD BGCOLOR="#006600">
+
+					<SPAN CLASS="nav"><A HREF="index.php">Home</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="search.php">Reports</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="reporters.php">The reporters:</A></SPAN>
+
+			<SELECT NAME="select_list" onChange="jumpPage(this.form.select_list);" CLASS="drop_down" STYLE="font-size: 8pt; width:150px">
+			<OPTION VALUE="">Choose ...</OPTION>
+			<OPTION VALUE='search.php?action=search&author_id=7&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Editor of Yellowstone Reports</OPTION><OPTION VALUE='search.php?action=search&author_id=18&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Rick Lamplugh</OPTION><OPTION VALUE='search.php?action=search&author_id=19&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Sandy Sisti</OPTION><OPTION VALUE='search.php?action=search&author_id=21&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Jimmy Jones</OPTION><OPTION VALUE='search.php?action=search&author_id=22&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Russ Kehler</OPTION><OPTION VALUE='search.php?action=search&author_id=5&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Laurie Lyman</OPTION><OPTION VALUE='search.php?action=search&author_id=12&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Michael Leach</OPTION><OPTION VALUE='search.php?action=search&author_id=14&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Leo Leckie</OPTION><OPTION VALUE='search.php?action=search&author_id=17&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Ilona Popper</OPTION><OPTION VALUE='search.php?action=search&author_id=9&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Dave Hornoff</OPTION><OPTION VALUE='search.php?action=search&author_id=4&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Dan Hartman</OPTION><OPTION VALUE='search.php?action=search&author_id=1&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Dr. Nathan Varley</OPTION><OPTION VALUE='search.php?action=search&author_id=6&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Linda Thurston</OPTION><OPTION VALUE='search.php?action=search&author_id=2&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Mike O'Connell</OPTION>			</SELECT>
+
+			<SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="account.php">My account</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="about-yellowstone-reports.php">About us</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="contact.php">Contact us</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="faqs-yellowstone-reports.php">FAQs/Help</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="login.php?logout=1">Logout</A></SPAN>
+				</TD>
+	</TR></FORM>
+</TABLE>
+</TD></TR></TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="black" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1"></TD></TR></TABLE>
+
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BGCOLOR="FFFFE9"><TR><TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH=1020 BGCOLOR="FFFFE9"><TR><TD ALIGN=RIGHT>
+</TD></TR></TABLE>
+</TD></TR></TABLE>
+
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BGCOLOR="FFFFE9"><TR><TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH=770 BGCOLOR="FFFFE9">
+	<TR VALIGN=TOP>
+		<TD WIDTH="20"><IMG SRC="images/spacer.gif" WIDTH="20" HEIGHT="600"></TD>
+		<TD WIDTH="750"><BR>
+
+
+
+	<!-- <FORM><DIV ALIGN=RIGHT><INPUT TYPE="button" VALUE="Close window" onClick="window.close()"></DIV></FORM> -->
+
+
+<script type="text/JavaScript">
+//courtesy of BoogieJack.com
+function killCopy(e){
+	return false
+}
+function reEnable(){
+	return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+	document.onmousedown=killCopy
+	document.onclick=reEnable
+}
+</script>
+
+
+
+<!-- <DIV ALIGN=RIGHT> -->
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+	<TR VALIGN=TOP>
+		<TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="#CCCCCC"><TR><TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" BGCOLOR="#FFFFD5" HEIGHT=24>
+	<TR>
+		<TD><A HREF="index.php"><IMG SRC='images/arrow_rotate_clockwise.png' WIDTH=16 HEIGHT=16 BORDER=0></A></TD>
+		<TD><NOBR><SPAN CLASS="pf"><A HREF="index.php">Return home</A></SPAN></NOBR></TD>
+	</TR>
+</TABLE>
+</TD></TR></TABLE>
+		</TD>
+		<TD ALIGN=RIGHT>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="#CCCCCC"><TR><TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" BGCOLOR="#FFFFD5" HEIGHT=24>
+	<TR>
+		<TD>
+				</TD>
+		<TD><NOBR>
+					<SPAN CLASS="pf">No printer-friendly version for this reporter</SPAN>
+				</NOBR></TD>
+	</TR>
+</TABLE>
+</TD></TR></TABLE>
+		</TD>
+	</TR>
+</TABLE>
+<!-- </DIV> -->
+<IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR>
+
+
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="#CCCCCC"><TR><TD>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="10" WIDTH="100%" BGCOLOR="#FFFFD5">
+	<TR VALIGN=TOP>
+		<TD>
+		<B CLASS="header">Lamar Canyon, Wapiti, Canyon, grizzlies   10-20-16</B><BR>
+		<IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR>
+				<I>by Laurie Lyman</I>
+		</TD>
+		<TD ALIGN=RIGHT><NOBR><I>
+		Oct. 20, 2016		</I></NOBR></TD>
+	</TR>
+</TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BGCOLOR="#CCCCCC">
+	<TR>
+		<TD><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=1></TD>
+	</TR>
+</TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="10" BGCOLOR="#FFFFFF">
+	<TR VALIGN=TOP>
+		<TD><BR>
+
+		
+		Hi Everyone ~<BR>
+<BR>
+From Doug ~ &nbsp;I knew the day was going to be good from the very early sightings I had.&nbsp; I haven't seen a pine martin since my time in Silver Gate, and this morning I had one cross the road near Lava Creek.&nbsp; Just a couple of miles later it was a fox that crossed the road, and then a beautiful mule deer buck.&nbsp; Great drive and as it started to get light out we were looking for the Lamars from Geriatric above Confluence.<BR>
+<BR>
+<strong>Lamar Canyon ~ </strong>&nbsp;Josh A. reported a grizzly on a carcass just east of Footbridge.&nbsp; Slowly the interest in finding the Lamars south of Confluence waned and people started heading east.&nbsp; I didn't get there in time to see the grizzly on the carcass on the south bank of Soda Butte Creek but got photos as it passed behind the trees east of Dead Puppy Hill.&nbsp; Hmmm, a carcass and a grizzly, this was a better place to be looking for the Lamars.<BR>
+<BR>
+A bit later we got a break as I heard a howl directly south of the eastern turn.&nbsp; Lots of eyes looking from everywhere from Soda Butte Cone to Footbridge and Jim B. is the one who struck gold!&nbsp; He found 3 of the Lamars up in the trees east of Dead Puppy and you could only see them from Jim's vantage point near the apex of the curve in the road.&nbsp; 926F was bedded in an area affording the best view with 949M higher up the hill with another black straight above 926F.&nbsp; There was very little movement.&nbsp; I was taking a video when 926F got up and did a quick turn around before plunking down again.&nbsp; She was quite full.&nbsp; One of the blacks made its way to the left to eat some snow before heading back to its bedding place.<BR>
+<BR>
+And then..... the grizzly went to a nice bedding spot about 10 yards from 949M and just above 926F.&nbsp; Nobody stirred, this bear is like a member of the pack!&nbsp; The first time we saw the "new" Lamars, this bear was with them!&nbsp; Yesterday when only tracks were found at Soda Butte Picnic the tracks were wolves and a grizzly!&nbsp; He eats at their kills and stays with them.&nbsp; Rick commented this morning..... imagine if the Mollies come into the area and make a charge at the Lamars who politely step aside and introduce the Mollies to their newest member.&nbsp; Who really knows the total nature of this relationship but we do know the Lamars are very comfortable in close presence with this bear and the bear wants to be with them.&nbsp; Go figure!<BR>
+<BR>
+There was a little repositioning between the grizzly and 949M, but all was very calm and easy going. &nbsp;They were all bedded still when I left.&nbsp; They look great.<BR>
+<BR>
+Afternoon from Calvin and Lynette ~ &nbsp;Around 1 PM or so,&nbsp;&nbsp;we did see the dark uncollared black moving west and lost him behind a boulder. A few minutes later Calvin said he was heading up slope then realized it was the grizzly.&nbsp;The grizzly came from where we lost the black. &nbsp;I did have another one re-bed just a little east. The last sighting was 1pm and we left at 3:30.<BR>
+<BR>
+This evening with the Lamars from Bill H. &nbsp;~ &nbsp;They watched the bear and the wolves get up and move from east to west across Dead Puppy Hill and onto the flats where they lost them around 7 PM.<BR>
+<BR>
+<strong>Wapiti</strong> from Don P. &nbsp;~ &nbsp;&nbsp;Hi Laurie wanted to e-mail while I had service. &nbsp; I'm at Cascade Meadow looking to the north side, and have a carcass with wolves and grizzlies. &nbsp; I've seen 3 grays and 1 black and 1 grizzly. &nbsp; Others did see 6 wolves and a sow with 2 yearling cubs before I got here.&nbsp;I did see the white wolf I called it a gray and one of the other grays was big with and very dark on the upper part of body. &nbsp;From Laurie ~ &nbsp;The gray that Don saw did have a collar and is most likely 1013M from the Mollies Pack. &nbsp;The other collared gray in the Mollie Pack is 978F. &nbsp;I don't think that she would have been welcomed by the two female adult Wapitis.<BR>
+<BR>
+Later in the day from Don P. &nbsp;~ &nbsp;I ended up seeing another black which was collared so I had a total of 5, the alpha female and 2 other grays, and 2 blacks one of them collared. Mark may have had a 3rd black. At about 2:15 they started howling and moving east through the forest and we lost them.<BR>
+<BR>
+<strong>Canyons</strong> from Natalie and Warren ~ &nbsp;Canyons were seen this AM at 8:15 at Fountain Flats. &nbsp;They crossed west to east to the Mary Mountain Trail. &nbsp;The count was white alpha female, 712M, 1 black, and 3 grays. &nbsp;They lost them into the trees. &nbsp;Thanks to Steve Henry for photos.<BR>
+<BR>
+<strong>Grizzlies </strong>from Bill H. &nbsp;~ &nbsp;Bill did see the grizzly at Cascade Lake but not the youngsters. &nbsp;His friends, Jim and Twyla did find a pretty blond grizzly south of Trashcan. &nbsp;And then at 6:30, he had the grizzly that has buddied up to the Lamar Canyons.<BR>
+<BR>
+Until tomorrow,<BR>
+Laurie<BR>
+yellowstonereports.com<BR>
+Please do not forward, post,<BR>
+paraphrase, publish in any<BR>
+form, or copy for distribution<BR>
+Laurie Lyman Copyright 2016<BR>		
+		
+		</TD><TD WIDTH=150><BR><TABLE CELLPADDING=1 CELLSPACING=0 BORDER=0 BGCOLOR='#006600'><TR><TD><TABLE CELLPADDING=5 CELLSPACING=0 BORDER=0 BGCOLOR='#FFFFFF'><TR><TD BGCOLOR='#006600'><B CLASS='white'>Photos</B><BR></TD></TR><TR><TD ALIGN=CENTER><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=3><BR>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="#CCCCCC" WIDTH="100%"><TR><TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" BGCOLOR="#FFFFD5" WIDTH="100%">
+	<TR>
+		<TD WIDTH=16><A HREF="JavaScript:void(0)" onClick="popup('slide_show.php?cid=4928')"><IMG SRC='images/camera.png' WIDTH=16 HEIGHT=16 BORDER=0></A></TD>
+		<TD><NOBR><SPAN CLASS="pf"><A HREF="JavaScript:void(0)" onClick="popup('slide_show.php?cid=4928')">View slide show</A></SPAN></NOBR></TD>
+	</TR>
+</TABLE>
+</TD></TR></TABLE>
+<IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR>
+
+<SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14523&img=14523.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14523_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Grizzly accompanying the Lamar wolves</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14524&img=14524.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14524_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Lamar 926F in the trees of Dead Puppy</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14525&img=14525.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14525_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Distinguished white face of Beartooth pack member 949M</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14526&img=14526.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14526_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Mollie 1014M</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14527&img=14527.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14527_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Canyon 712M</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14528&img=14528.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14528_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>White Canyon alpha female</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14530&img=14530.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14530_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Uncollared black with Canyon</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14531&img=14531.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14531_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Collard gray maybe 1013M from Mollie</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14532&img=14532.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14532_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Collared gray with Wapiti maybe 1013M</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=3><BR></TD></TR></TABLE></TD></TR></TABLE><BR>
+		</TD>
+	</TR>
+</TABLE>
+
+</TD></TR></TABLE><BR>
+
+
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+ <!--
+
+function openWin( windowURL, windowName, windowFeatures ) { 
+	return window.open( windowURL, windowName, windowFeatures ) ; 
+}
+
+function popup(url) {
+	params  = 'width='+screen.width;
+	params += ', height='+screen.height;
+	params += ', top=0, left=0'
+	params += ', fullscreen=yes';
+	params += ', resizable=yes';
+	params += ', scrollbars=yes';
+	 newwin=window.open(url,'windowname4', params);
+	if (window.focus) {
+		newwin.focus()
+	}
+	return false;
+}
+
+function printer_popup(url) {
+	var width  = 620;
+	var height = 700;
+	var left   = (screen.width  - width)/2;
+	var top    = ((screen.height - height)/2) + 50;
+	var params = 'width='+width+', height='+height;
+	params += ', top='+top+', left='+left;
+	params += ', directories=no';
+	params += ', location=no';
+	params += ', menubar=no';
+	params += ', resizable=yes';
+	params += ', scrollbars=yes';
+	params += ', status=no';
+	params += ', toolbar=no';
+	newwin=window.open(url,'windowname5', params);
+	if (window.focus) {
+		newwin.focus()
+	}
+	return false;
+}
+
+ // -->
+</SCRIPT>
+
+
+
+
+
+		</TD>
+	</TR>
+</TABLE>
+
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="white" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="4"></TD></TR></TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="black" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1"></TD></TR></TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BACKGROUND="images/brown_backer.gif" WIDTH="100%"><TR><TD>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="5" WIDTH=770>
+	<TR VALIGN=TOP>
+		<TD WIDTH="10"><IMG SRC="images/spacer.gif" WIDTH="10" HEIGHT="20"></TD>
+		<TD WIDTH="350"><IMG SRC="images/spacer.gif" WIDTH="350" HEIGHT="7"><BR><SPAN STYLE="font-size: 7pt; color:#FFFFFF">&copy; 2009-2016 Yellowstone Reports. All Rights Reserved.</SPAN></TD>
+		<TD WIDTH="350" ALIGN=RIGHT><!-- 
+<IMG SRC="images/spacer.gif" WIDTH="350" HEIGHT="7"><BR><SPAN STYLE="font-size: 7pt">
+<A HREF="terms.php" STYLE="color:#CCCCCC">Terms and conditions</A>
+&nbsp;&nbsp;
+<A HREF="privacy.php" STYLE="color:#CCCCCC">Privacy policy</A>
+		</SPAN><BR><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="36">
+ --><BR>&nbsp;</TD>
+	</TR>
+</TABLE>
+
+</TD></TR></TABLE>
+</TD></TR></TABLE>
+
+<SCRIPT TYPE="text/javascript">
+	rotater.style.display = 'block';
+</SCRIPT>
+
+</BODY>
+</HTML>

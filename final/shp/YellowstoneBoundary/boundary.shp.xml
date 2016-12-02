@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Department of the Interior (DOI), National Park Service (NPS), Land Resources Division (LRD), Intermountain Land Resources Program Center</origin>
+				<pubdate>20080423</pubdate>
+				<title Sync="TRUE">boundary</title>
+				<edition>20080423</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>&lt;LRD Program Center's City &amp; State&gt;</pubplace>
+					<publish>National Park Service Land Resources Division</publish>
+				</pubinfo>
+				<onlink>http://nrdata.nps.gov/programs/Lands/yell_tracts.zip</onlink>
+				<ftname Sync="TRUE">boundary</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>These ESRI shape files are of National Park Service tract and boundary data that was created by the Land Resources Division. Tracts are numbered and created by the regional cartographic staff at the Land Resources Program Centers and are associated to the Land Status Maps. This data should be used to display properties that NPS owns and properties that NPS may have some type of interest such as scenic easements or right of ways.</abstract>
+			<purpose>This data is intended to keep a record of ownership information. Tracts can represent several types of interest like fee and scenic easement, and can be under several types of ownership like NPS owned, private, other federal, state or county. This data set provides accurate and reliable ownership data for park management and acquisition priorities.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>18720301</begdate>
+					<enddate>20080423</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>Beginning date is the first recorded conveyance date. Ending date is set to the last day the data set was updated.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Continually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-111.155986</westbc>
+				<eastbc Sync="TRUE">-109.824180</eastbc>
+				<northbc Sync="TRUE">45.108957</northbc>
+				<southbc Sync="TRUE">44.132447</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-12373827.749900</leftbc><rightbc Sync="TRUE">-12225571.809700</rightbc><bottombc Sync="TRUE">5485961.568300</bottombc><topbc Sync="TRUE">5638690.831800</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>Boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Boundary</themekey>
+				<themekey>Ownership</themekey>
+				<themekey>Parcels</themekey>
+				<themekey>Tracts</themekey>
+				<themekey>LRDCAB</themekey>
+			</theme>
+			<theme>
+				<themekt>National Park Service Theme Category Thesaurus</themekt>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>United States</placekey>
+				<placekey>National Park Service</placekey>
+				<placekey>Yellowstone National Park</placekey>
+				<placekey>Intermountain</placekey>
+				<placekey>Wyoming</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Idaho</placekey>
+			</place>
+			<place>
+				<placekt>National Park System Unit Code Thesaurus</placekt>
+				<placekey>YELL</placekey>
+			</place>
+			<place>
+				<placekt>National Park System Unit Name Thesaurus</placekt>
+				<placekey>Yellowstone National Park</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>NPS Director's Order #25 states: "Land status maps will be prepared to identify the ownership of the lands within the authorized boundaries of the park unit. These maps, showing ownership and acreage, are the 'official record' of the acreage of Federal and non-federal lands within the park boundaries. While these maps are the official record of the lands and acreage within the unit's authorized boundaries, they are not of survey quality and not intended to be used for survey purposes." As such this data is intended for use as a tool for GIS analysis. It is in no way intended for engineering or legal purposes. The data accuracy is checked against best available sources which may be dated and vary by location. NPS assumes no liability for use of this data.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NPS - Land Resources Division, Fort Collins</cntorg>
+					<cntper>Richard Easterbrook</cntper>
+				</cntorgp>
+				<cntpos>Cartographer</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>301 S. Howes St., Suite 208</address>
+					<city>Fort Collins</city>
+					<state>CO</state>
+					<postal>80522</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>970-484-1843</cntvoice>
+				<cntfax>970-484-6432</cntfax>
+				<cntemail>Richard_Easterbrook@nps.gov</cntemail>
+				<hours>0800-1630 M-F</hours>
+			</cntinfo>
+		</ptcontac>
+		<crossref>
+			<citeinfo>
+				<origin>Department of the Interior (DOI), National Park Service (NPS), Land Resources Division (LRD), Intermountain Land Resources Program Center</origin>
+				<pubdate>20080423</pubdate>
+				<title>Metadata for Yellowstone National Park Tract and Boundary Data</title>
+				<onlink>http://nrdata.nps.gov/programs/lands/yell_metadata.xml</onlink>
+			</citeinfo>
+		</crossref>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native><natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The Tract_id, and Alpha data fields are provided by regional cartographic offices. The Date_Edit data field is added when the regional office submits the data to the Lands WASO Fort Collins office for inclusion in the national data set. All remaining tract attributes are updated from LRD's Master Deed Listing (MDL) nightly. By default the Status and Estate fields are included shape file dbf. All other MDL fields covered under the FOIA can be added to the tract dbf upon request.</attraccr>
+		</attracc>
+		<logic>Link and node polygon topology is created using AutoDesk Land Desktop 2006. The data is then exported to ESRI shape file format and reprojected from it's native Autodesk coordinate system to NAD83 generic latitude and longitude, LL83.</logic>
+		<complete>The data set is complete but subject to continual updates to reflect boundary amendments, legislation, and acquisitions, and improved processing techniques.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The University of Wyoming states their accuracy for the WBD data as: The map was digitized from USGS 1:24,000-scale digital raster graphic base maps, with an inherited error of +/- 40 feet according to USGS National Map Accuracy Standards. Digitized line locations were held to the +/- 40 foot accuracy standards by ensuring that all lines were within a 12 meter buffer of where visual interpretation put the actual boundary. Any lines outside the buffer were corrected. It is estimated that the errors detected were less than 10%. It should be noted that while general rules of hydrology were used (i.e. water flows downhill), the location of boundaries is still somewhat subjective as the 1:24,000-scale DRG-E do not always provide enough information for identifying the location of the boundaries. In these instances group consensus was used. Please refer to the methods section for more details on watershed delineation rules. Unquantifiable errors may be associated with coordinate shift (fuzzy tolerance was set to 0.000000001 meters, double precision), dangle (set to 15 meters). The default was used for all other ArcEdit tolerances. It should be noted that the data was digitized using NAD27 horizontal datum as that is the native datum of the digital raster geographics. The data was then projected to NAD83 horizontal datum as requested by the NRCS. If the Wyoming data is reprojected to nad83 and overlaid on the DRG-Es with the NAD83 DRG-Es it can be assumed that the boundaries will be off by less than 2 meters. As with the original DRGs, DRG-E is cast in the Universal Transverse Mercator projection and is referenced to the NAD27 datum. When the drg-es are used in the NAD83 datum the alternate world files only approximate the NAD83 by shifting the coordinates of the imagery. The total error introduced using this shift is less than 2 meters for all DRG-E imagery. Metadata from the Geocommunicator's USFS PLSS information (i.e., Townships, Sections) states a horizontal accuracy as: "Accuracy of the individual points contained within the GCDB layers of LSIS that were determined using GMM software were adjusted using both compass rule and a least squares analysis, which examines the geometry of PLSS parcels in relation to the coordinate values of known locations for control points within the PLSS grid. Each individual point carries a reliablility factor indicating the error ellipse in both northing and easting which is reported after the least squares analysis is completed. Accuracy of the individual points contained within the GCDB layers of LSIS that were determined using PCCS software were adjusted using a succession of compass rule adjustments between the control points followed by a least squares analysis, which examines the geometry of PLSS parcels in relation to the coordinate values of known locations for control points within the PLSS grid. Each individual point carries positional reliability factors for the average of the misclosures in the data set and the maximum misclosure in the data set." Unfortunately this statement is vague as to any real horizontal accuracy, since accuracy of the points mentioned above is not provide to the user. Also, the BLM does not state the scale of their data so assumptions can not be made using National Map Accuracy Standards, therefore horizontal accuracy for PLSS is unknown. Wyoming BLM GCDB data states: Accuracy of the individual points contained within the GCDB were adjusted using a least squares analysis, which examines the geometry of PLSS parcels in relation to the coordinate values of known locations for control points within the PLSS grid. Each individual point carries a reliability factor indicating the absolute error of each node. Idaho BLM GCDB data states: Horizontal accuracy of the digital dataset is tied to the CTRL coverage created from GCDB input files. The CTRL coverage is a point coverage that contains control locations for the specified township. Montana GCDB Flat Files were not scrutinized individually to determine and average horizontal accuracy. USGS high resolution NHD data is based off from USGS 1:24,000 scale topographic maps. Therefore this information should meet National Map Accuracy Standards for 1:24,000 scale data (i.e., 90% of all points are accurate within 1/50 of an inch, 40 feet). Although some of these accuracy statements are vague, an assumption is being made that the overall accuracy of this dataset meets National Map Accuracy Standards for 1:24,000 scale data (i.e., 90% of all points are accurate within 1/50 of an inch, 40 feet).</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>None</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Park Service - Land Resources Division</origin>
+						<pubdate>20080423</pubdate>
+						<title>Legal Descriptions</title>
+						<edition>N/A</edition>
+						<geoform>document - legal description</geoform>
+						<pubinfo>
+							<pubplace>Intermountain Land Resources Program Center</pubplace>
+							<publish>Land Resources Division</publish>
+						</pubinfo>
+						<othercit>None</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>1</srcscale>
+				<typesrc>Paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>18720301</begdate>
+							<enddate>20080423</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Beginning Date represents first conveyed date. Ending date is when the data was last updated.</srccurr>
+				</srctime>
+				<srccitea>Legal Descriptions</srccitea>
+				<srccontr>tract and boundary geometry, Tract_id, Alpha</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Park Service - Land Resources Division</origin>
+						<pubdate>20080423</pubdate>
+						<title>Deeds</title>
+						<edition>N/A</edition>
+						<geoform>document - deed</geoform>
+						<pubinfo>
+							<pubplace>Intermountain Land Resources Program Center</pubplace>
+							<publish>Land Resources Division</publish>
+						</pubinfo>
+						<othercit>None</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>1</srcscale>
+				<typesrc>Paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>18720301</begdate>
+							<enddate>20080423</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Beginning Date represents first conveyed date. Ending date is when the data was last updated.</srccurr>
+				</srctime>
+				<srccitea>deeds</srccitea>
+				<srccontr>tract and boundary geometry, Tract_id, Alpha</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Park Service - Land Resources Division</origin>
+						<pubdate>20080423</pubdate>
+						<title>Segment Maps</title>
+						<edition>N/A</edition>
+						<geoform>map - segment map</geoform>
+						<pubinfo>
+							<pubplace>Intermountain Land Resources Program Center</pubplace>
+							<publish>Land Resources Division</publish>
+						</pubinfo>
+						<othercit>None</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>{Range of Segment Map Scales}</srcscale>
+				<typesrc>Mylar</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>18720301</begdate>
+							<enddate>20080423</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Beginning Date represents first conveyed date. Ending date is when the data was last updated.</srccurr>
+				</srctime>
+				<srccitea>segment maps</srccitea>
+				<srccontr>tract and boundary geometry, Tract_id, Alpha</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>USFS (T. 58 N. R. 109 W., T. 58 N. R. 108 W., T. 58 N. R. 107 W., T. 57 N. R. 109 W., T. 57 N. R. 108 W., T. 57 N. R. 107 W., T. 56 N. R. 109 W., T. 56 N. R. 108 W., T. 55 N. R. 108 W., T. 54 N. R. 109 W., T. 54 N. R. 108 W., T. 53 N. R. 110 W., T. 53 N. R. 109 W., T. 53 N. R. 108 W., T. 52 N. R. 110 W., T. 52 N. R. 109 W., T. 52 N. R. 108 W., T. 51 N. R. 110 W., T. 51 N. R. 109 W., T. 51 N. R. 108 W., T. 50 N. R. 110 W., T. 50 N. R. 109 W., T. 50 N. R. 108 W., T. 49 N. R. 109 W., T. 49 N. R. 108 W., T. 48 N. R. 115 W., T. 48 N. R. 114 W., T. 48 N. R. 113 W., T. 48 N. R. 112 W., T. 48 N. R. 111 W., T. 48 N. R. 110 W., T. 48 N. R. 109 W., T. 48 N. R. 108 W., ) PLSS information was downloaded from the BLM's Geocommunicator (http://www.geocommunicator.gov/GeoComm/index.shtm) on 1/23/2008. Geocommunicator BLM PLSS data was discovered to be inaccurate. Original PLSS data from the State offices had been modified in some way (shift). It was decided that only the original PLSS from the States should be used. PLSS for Park and Teton counties downloaded from the BLM's State site (http://www.blm.gov/wy/st/en/resources/public_room/gis/datagis/county/gcdb.html) in coverage format. AutoDesk Map IMPORT command used to import coverages. Idaho township's t9nr45e, t9nr46e, t10nr45e, t10nr46e, t11nr45e, t11nr46e, t12nr45e, t12nr46e, t13nr45e, t13nr46e, t14nr45e from the BLM's State site (http://maps.insideidaho.org/WebMapping/Search/DownloadPLSS/index.asp) in coverage format. AutoDesk Map IMPORT command used to import coverages. Montana TOWNSHIP'S T08SR05E, T08SR06E, T09SR05E, T09SR06E, T09SR07E, T09SR08E, T09SR09E, T09SR10E, T09SR11E, T09SR12E, T09SR13E, T09SR14E, T09SR15E, T10SR05E, T11SR05E, T12SR05E, T13SR05E, T14SR05E and T15SR05E dowloaded from the BLM's State site(http://www.mt.blm.gov/cadastral/gcdb/) in GCDB Flat File format. The BLm program "gmm2dxf" used to convert flat file to *.DXF format. FME used to convert from DXF to DWG format and project from Montana State Plane South, NAD27, US Foot to Montana State Plane, NAD 83, US Foot. These DWG's were attached to the YELL.DWG. A line (N64d08"E, 60.43') was drawn to connect the western exterior boundary (NPS-BDY) where MT and ID meet. A line (N17d51"W, 31.93') was drawn to connect the western tract boundary (TRACT) where MT and ID meet. For Township T48N R115W Geocommunicator USFS PLSS was used. This linework was transformed to fit the Teton County PLSS using the NE CN of Section 12 T48N R116W and the NW CN of Section 6 T47N R115W. PLSS linework was used to geo-reference park boundary and tract layers. Where boundary and tract layers deviated from aliquot parts, deeds and/or legal descriptions were utilized. Used Watershed boundary ArcInfo coverage from the University of Wyoming's Geographic Information Science Center (http://www.wygisc.uwyo.edu/) to delineate hydrographic boundaries. This dataset meets federal standards for delineation of hydrologic unit boundaries. Local experts (Frank Jackson of the USFS and Paul Caffrey of UWyo) suggested that I use this boundary rather than the USGS NHD data. It was downloaded on 20080409. WBD boundary was also used to delineate the boundary between ID and MT for tracts 03-103 and 03-106. Hydrographic divide between Daly and Tepee Creeks (T8S R5E and T9S R5E) is not delineated in either the WBD or NHD datasets. This boundary was on-screen digitized from USGS 24K DRG's (Sunshine Point, MT). Hydrographic divide near Amphitheater Mountain (T58N R109W) is not delineated in either the WBD or NHD datasets. This boundary was taken from the USFS PLSS for this area. Tract 01-120 was COGOed using the legal description on the LandsNet archive. Tract was rotated -1d14" to align eastern boundary with the PLSS line between sections 22 and 23. Tract 01-121 was COGOed using the legal description on the LandsNet archive. Tract was rotated -00d26" to align western boundary with the western boundary of the park and the SW corner of lot 7. The centerline of Tract 01-103 was on-screen digitized from 2006 NAIP ortho-photography where a trace could be viewed of the old railroad line. This centerline was buffered 50' on either side in ArcGIS to give the true width of the right-of-way. A legal description for Fremont County, ID was acquired from the State's website (http://www3.state.id.us/cgi-bin/newidst?sctid=310010024.K). A legal description for Teton County, WY was acquired from the State's website (http://legisweb.state.wy.us/statutes/dlstatutes.htm). USGS high resolution NHD flowline and area layers were used to delineate the west bank of the Yellow River in Segment Map 01, the west bank of the Gallatin River in Segment Map 02 and the border of tracts 03-107 and 03-104. The AutoDesk Project was projected to Wyoming State Plane, Zone West, NAD83, US Foot. The Autodesk line work is imported, edited, attributed, approved, and a link and node topology is developed both for the tract and boundary data layers according to the procedures described in the Land Acquisition Procedures Manual Chapter 5. The entire unit is created in a geographically contiguous model space and separate layouts representing each individual segment map are created. The tract and boundary data is then reprojected to North American Datum 1983 generic latitude &amp; longitude and exported from Autodesk to an ArcView shape file format in a single step.</procdesc>
+				<srcused>Deeds, Segment Maps and Miscellaneous Maps from Archive in NPS LandsNet</srcused>
+				<srcused>University of Wyoming's Geographic Information Science Center's Watershed Boundaries for Wyoming</srcused>
+				<srcused>USGS High Resolution NHD Flowline and Area layers</srcused>
+				<srcused>USFS PLSS from the BLM's Geocommunicator for Unsurveyed areas</srcused>
+				<srcused>Idaho GCDB</srcused>
+				<srcused>Wyoming GCDB</srcused>
+				<srcused>Montana GCDB</srcused>
+				<srcused>Fremont County, Idaho State Statute</srcused>
+				<srcused>Teton County, Wyoming State Statute</srcused>
+				<srcused>2006 NAIP Ortho-Photography for Park County, Wyoming</srcused>
+				<procdate>20080123 - 20080423</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Richard Easterbrook</cntper>
+							<cntorg>NPS Land Resources Division, Fort Collins</cntorg>
+						</cntperp>
+						<cntpos>Cartographer</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>301 S. Howes St., Suite 208</address>
+							<city>Fort Collins</city>
+							<state>CO</state>
+							<postal>80522</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>970-484-1843</cntvoice>
+						<cntfax>970-484-6432</cntfax>
+						<cntemail>Richard_Easterbrook@nps.gov</cntemail>
+						<hours>0800-1630 M-F</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_UTM_Zone_12N</projcsn></cordsysn><planar><planci><plance Sync="TRUE">coordinate pair</plance><plandu Sync="TRUE">meters</plandu><coordrep><absres Sync="TRUE">0.000000</absres><ordres Sync="TRUE">0.000000</ordres></coordrep></planci><gridsys><gridsysn Sync="TRUE">Universal Transverse Mercator</gridsysn><utm><utmzone Sync="TRUE">12</utmzone><transmer><sfctrmer Sync="TRUE">0.999600</sfctrmer><longcm Sync="TRUE">-111.000000</longcm><latprjo Sync="TRUE">0.000000</latprjo><feast Sync="TRUE">500000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></utm></gridsys></planar></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000100</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="boundary">
+			<enttyp>
+				<enttypl Sync="TRUE">boundary</enttypl>
+				<enttypd>Shapefile Attribute Table</enttypd>
+				<enttypds>None</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">UNIT_TYPE</attrlabl><attalias Sync="TRUE">UNIT_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr><attr><attrlabl Sync="TRUE">PARKNAME</attrlabl><attalias Sync="TRUE">PARKNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">28</attwidth></attr><attr><attrlabl Sync="TRUE">STATE</attrlabl><attalias Sync="TRUE">STATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr><attr><attrlabl Sync="TRUE">REGION</attrlabl><attalias Sync="TRUE">REGION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr><attr><attrlabl Sync="TRUE">UNIT_CODE</attrlabl><attalias Sync="TRUE">UNIT_CODE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr><attr><attrlabl Sync="TRUE">UNIT_NAME</attrlabl><attalias Sync="TRUE">UNIT_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">DATE_EDIT</attrlabl><attalias Sync="TRUE">DATE_EDIT</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth></attr><attr><attrlabl Sync="TRUE">GIS_NOTES</attrlabl><attalias Sync="TRUE">GIS_NOTES</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Shape_Le_1</attrlabl><attalias Sync="TRUE">Shape_Le_1</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+		<overview>
+			<eaover>Attributes were created according to the National Park Service, Land Resources Division, Land Acquisition Procedures (LAPS).</eaover>
+			<eadetcit>"Land Acquisition Procedures (LAPS)", Mapping Standards - Chapter 5, revised 2005.</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NPS - Land Resources Division, WASO-FC</cntorg>
+					<cntper>Roger Johnson</cntper>
+				</cntorgp>
+				<cntpos>Chief Cartographer</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>301 South Howes Street Suite 208</address>
+					<city>Fort Collins</city>
+					<state>CO</state>
+					<postal>80522</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>970-484-6428</cntvoice>
+				<cntfax>970-484-6432</cntfax>
+				<cntemail>roger_m_johnson@nps.gov</cntemail>
+				<hours>7:00am-5:30pm Mountain Monday-Thursday</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>yell_tract.shp and yell_boundary.shp</resdesc>
+		<distliab>Property ownership data is compiled from deeds, plats, surveys, and other source data. These are not engineering quality drawings and should be used for administrative purposes only. The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data and related graphics are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived. It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular. The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data. The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data. It is strongly recommended that these data are directly acquired from an NPS server and not indirectly through other sources which may have changed the data in some way. Although these data have been processed successfully on a computer system at the National Park Service, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ESRI Shapefile</formname>
+					<transize Sync="TRUE">0.000</transize><dssize Sync="TRUE">0.000</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://nrdata.nps.gov/programs/Lands/yell_tracts.zip</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>None</fees>
+		</stdorder>
+		<custom>
+To get a hard copy plot, contact Land Resources Program
+Center for replacement costs and turnaround times.
+</custom>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20101215</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NPS Land Resources Division, Fort Collins</cntorg>
+					<cntper>Richard Easterbrook</cntper>
+				</cntorgp>
+				<cntpos>Cartographer</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and physical address</addrtype>
+					<address>301 S. Howes St., Suite 208</address>
+					<city>Fort Collins</city>
+					<state>CO</state>
+					<postal>80522</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>970-484-1843</cntvoice>
+				<cntfax>970-484-6432</cntfax>
+				<cntemail>Richard_Easterbrook@nps.gov</cntemail>
+				<hours>0800-1630 M-F</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://nrdata.nps.gov/profiles/NPS_Profile.xml</onlink>
+			<metprof>NPS Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20101210</CreaDate><CreaTime>14182900</CreaTime><SyncOnce>TRUE</SyncOnce><SyncDate>20101206</SyncDate><SyncTime>10512400</SyncTime><ModDate>20101215</ModDate><ModTime>14405400</ModTime><DataProperties><lineage/></DataProperties><MetaID>{1A1CBF81-937D-420D-91A3-61E4C7841FA7}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">boundary</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-12373827.7499</westBL><eastBL Sync="TRUE">-12225571.8097</eastBL><northBL Sync="TRUE">5638690.8318</northBL><southBL Sync="TRUE">5485961.5683</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-111.155986</westBL><eastBL Sync="TRUE">-109.82418</eastBL><northBL Sync="TRUE">45.108957</northBL><southBL Sync="TRUE">44.132447</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\BAROSAURUS\Projects\Volcano_Hazzards_Program\Final\Downloads\Shapefiles\Park Info\YellowstoneBoundary\boundary</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="boundary"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="boundary"><sdtstype Sync="TRUE">G-polygon</sdtstype><ptvctcnt Sync="TRUE">0</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_UTM_Zone_12N</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="boundary"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20101215</mdDateSt></metadata>

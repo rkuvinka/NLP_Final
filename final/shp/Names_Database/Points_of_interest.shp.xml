@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Geological Survey</origin>
+				<pubdate>19810501</pubdate>
+				<title Sync="TRUE">Points_of_interest</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Reston, VA</pubplace>
+					<publish>U.S. Geological Survey</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">Points_of_interest</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>An automated inventory of the names and locations of physical and cultural geographic
+features located throughout the United States.</abstract>
+			<purpose>
+To promote geographic feature name standardization and to serve as the Federal
+Government's repository of information regarding feature name spellings and
+applications for features in U.S. The names listed in the inventory can be published
+on Federal maps, charts, and in other documents.  The feature locative information has
+been used in emergency preparedness, marketing, site-selection and analysis,
+genealogical and historical research, and transportation routing applications.
+</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<update>As needed.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-111.051330</westbc>
+				<eastbc Sync="TRUE">-109.853229</eastbc>
+				<northbc Sync="TRUE">44.999111</northbc>
+				<southbc Sync="TRUE">44.133275</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-12362177.461300</leftbc><rightbc Sync="TRUE">-12228805.553800</rightbc><bottombc Sync="TRUE">5486090.032600</bottombc><topbc Sync="TRUE">5621381.455100</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None.</themekt>
+				<themekey>geographic feature</themekey>
+				<themekey>feature name</themekey>
+				<themekey>place name</themekey>
+			</theme>
+			<place>
+				<placekt>None.</placekt>
+				<placekey>United States</placekey>
+				<placekey>Territories</placekey>
+				<placekey>Outlying Areas</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Roger L. Payne</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>Chief, Branch of Geographic Names</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>523 National Center</address>
+					<city>Reston</city>
+					<state>Virginia</state>
+					<postal>20192</postal>
+				</cntaddr>
+				<cntvoice>1 703 648 4544</cntvoice>
+				<cntemail>rpayne@usgs.gov</cntemail>
+				<hours>0730-1700</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>
+The Geographic Names Information System was developed by the U.S. Geological Survey
+in cooperation with the U.S. Board on Geographic Names.
+</datacred>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>
+A random sample of 10% of the entries in the system were visually verified against the
+compilation source data (large-scale USGS topographic maps) to ensure an accuracy
+rate of at least 95%.
+</attraccr>
+		</attracc>
+		<logic>
+Locative references (geographic coordinates, topographic map, and county) are
+cross-checked for logical consistency.
+</logic>
+		<complete>
+This dataset contains information about physical and cultural geographic features
+identified by a proper name, with the exception of most roads and highways.
+</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>
+Accuracy of these digital data is based upon the use of source graphics which are
+compiled to meet National Map Accuracy Standards.  Comparision to the graphic
+source is used as control to assess digital positional accuracy.
+</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>unknown</pubdate>
+						<title>1:24,000-scale topographic maps</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>unknown</begdate>
+							<enddate>present</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>USGS</srccitea>
+				<srccontr>Feature names and attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Board on Geographic Names</origin>
+						<pubdate>Unpublished material</pubdate>
+						<title>Records of the U.S. BGN</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>card files</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1932</begdate>
+							<enddate>present</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>creation date</srccurr>
+				</srctime>
+				<srccitea>USBGN</srccitea>
+				<srccontr>Feature names and attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Forest Service</origin>
+						<pubdate>unknown</pubdate>
+						<title>U.S. Forest Service 1:24,000-scale topographic maps</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>unknown</begdate>
+							<enddate>present</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>USFS</srccitea>
+				<srccontr>Feature names and attribute information</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>
+GNIS Phase I data compilation and edit--Feature name and attribute data are collected
+from the largest-scale USGS topographic maps available.  These data are compared to
+the records of the U.S. Board on Geographic Names.
+</procdesc>
+				<srcused>USGS, USBGN</srcused>
+				<procdate>198105</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Robin D. Worcester</cntper>
+							<cntorg>U.S. Geological Survey</cntorg>
+						</cntperp>
+						<cntpos>Chief, Geographic Names Information Section</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>523 National Center</address>
+							<city>Reston</city>
+							<state>Virginia</state>
+							<postal>20192</postal>
+						</cntaddr>
+						<cntvoice>1 703 648 4551</cntvoice>
+						<cntemail>rworcest@usgs.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>
+GNIS Maintenance program--Maintenance cooperators feed GNIS new names and
+corrections discovered in the course of new mapping and revision activities and
+implementation of the national geographic names standarization program.
+</procdesc>
+				<srcused>USBGN, USGS, USFS</srcused>
+				<procdate>unknown</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Robin D. Worcester</cntper>
+							<cntorg>U.S. Geological Survey</cntorg>
+						</cntperp>
+						<cntpos>Chief, Geographic Names Information Section</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>523 National Center</address>
+							<city>Reston</city>
+							<state>Virginia</state>
+							<postal>20192</postal>
+						</cntaddr>
+						<cntvoice>1 703 648 4551</cntvoice>
+						<cntemail>rworcest@usgs.gov</cntemail>
+						<hours>0900-1700</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>
+Features are located by State and county, and related to the USGS topographic map on
+which the feature is shown.
+</indspref>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="Points_of_interest">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="Points_of_interest"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<gridsys><gridsysn Sync="TRUE">Universal Transverse Mercator</gridsysn><utm><utmzone Sync="TRUE">12</utmzone><transmer><sfctrmer Sync="TRUE">0.999600</sfctrmer><longcm Sync="TRUE">-111.000000</longcm><latprjo Sync="TRUE">0.000000</latprjo><feast Sync="TRUE">500000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></utm></gridsys></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_UTM_Zone_12N</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">0.000100</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="Points_of_interest"><enttyp><enttypl Sync="TRUE">Points_of_interest</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">NAME</attrlabl><attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">52</attwidth></attr><attr><attrlabl Sync="TRUE">FEATURE</attrlabl><attalias Sync="TRUE">FEATURE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">CODE</attrlabl><attalias Sync="TRUE">CODE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">ELEVATION</attrlabl><attalias Sync="TRUE">ELEVATION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr></detailed>
+		<overview>
+			<eaover>
+The dataset contains records for named geographic features located in the United States,
+its Territories and Outlying Areas.  The records are organized by State (or State
+equivalent).  Each record includes: the official name of the feature; the feature type; the
+county(s) in which the feature is located; the name(s) of the USGS 1:24,000-scale
+topographic map(s) on which the feature is shown; geographic coordinates locating the
+mouth of linear features and the approximate center of areal features, and coordinates
+locating the feature on each additional (if any) USGS 1:24,000-scale map on which the
+feature is shown;  a bibliographic code referring to the source of information for each
+record, and other names by which the feature may be or may have been known.  Some
+records include information about the history of the feature or the origin of the feature
+name.
+</eaover>
+			<eadetcit>
+U.S. Department of the Interior, U.S. Geological Survey, 1987
+Geographic Names Information System--Data Users Guide 6;
+Reston, Virginia
+Softcopy in hypertext format is available at:
+http://geonames.usgs.gov/gnis_users_guide_toc.html
+</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Earth Science Information Center, U.S.Geological Survey</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>507 National Center</address>
+					<city>Reston</city>
+					<state>Virginia</state>
+					<postal>20192</postal>
+				</cntaddr>
+				<cntvoice>1 888 ASK USGS</cntvoice>
+				<hours>
+In addition to the address above there are other ESIC offices throughout the country.
+A full list of these offices is available at: http://mapping.usgs.gov/esic/esic_index.html
+</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Geographic Names Information System</resdesc>
+		<distliab>
+Although these data have been processed successfully on a computer system at the
+U.S. Geological Survey, no warranty expressed or implied is made by the USGS
+regarding the utility of the data on any other system, nor shall the act of distribution
+constitute any such warranty. The Geological Survey will warrant the delivery of this
+product in computer-readable format, and will offer appropriate adjustment of credit when
+the product is determined unreadable by correctly adjusted computer input peripherals, or
+when the physical medium is delivered in damaged condition.  Requests for adjustment of
+credit must be made within 90 day from the date of this shipment from the ordering site.
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>5.190</transize>
+					<dssize Sync="TRUE">0.000</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://geonames.usgs.gov/geonames/stategaz/index.html</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>None</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20101215</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Geological Survey</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>508 National Center</address>
+					<city>Reston</city>
+					<state>Virginia</state>
+					<postal>20192</postal>
+				</cntaddr>
+				<cntvoice>1 703 648 4543</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20101210</CreaDate><CreaTime>13595200</CreaTime><SyncOnce>TRUE</SyncOnce><SyncDate>20101206</SyncDate><SyncTime>10511800</SyncTime><ModDate>20101215</ModDate><ModTime>14390400</ModTime><DataProperties><lineage/></DataProperties><MetaID>{E4BD3C33-7CD8-481F-8F20-9226A84A43C1}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Points_of_interest</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-111.05133</westBL><eastBL Sync="TRUE">-109.853229</eastBL><northBL Sync="TRUE">44.999111</northBL><southBL Sync="TRUE">44.133275</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-12362177.4613</westBL><eastBL Sync="TRUE">-12228805.5538</eastBL><northBL Sync="TRUE">5621381.4551</northBL><southBL Sync="TRUE">5486090.0326</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\BAROSAURUS\Projects\Volcano_Hazzards_Program\Final\Downloads\Shapefiles\Park Info\Names_Database\Points_of_interest</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_UTM_Zone_12N</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Points_of_interest"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20101215</mdDateSt></metadata>

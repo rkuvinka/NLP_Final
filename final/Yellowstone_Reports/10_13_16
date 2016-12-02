@@ -1,0 +1,386 @@
+
+
+<HTML>
+<HEAD>
+	<TITLE> Yellowstone Reports </TITLE>
+	<LINK HREF="styles.css" REL="stylesheet">
+	<STYLE TYPE="text/css">
+		.slideshow { height: 100px; width: 800px }
+		.slideshow img { padding: 0px; border: 0px solid #000; }
+	</STYLE>
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+</HEAD>
+
+
+
+
+<!-- <SCRIPT TYPE="text/javascript" src="jquery-1.3.2.min.js"></SCRIPT> -->
+
+
+<!-- <SCRIPT TYPE="text/javascript" src="/reflection.js"></SCRIPT> -->
+<SCRIPT TYPE="text/javascript" src="/jquery-1.4.js"></SCRIPT>
+<SCRIPT TYPE="text/javascript" src="jquery.blockUI.js"></SCRIPT>
+<SCRIPT TYPE="text/javascript" src="/jquery.cycle.all.2.72.js"></SCRIPT>
+<SCRIPT TYPE="text/javascript">
+
+//http://malsup.com/jquery/block/#page
+$(function($) {
+
+	// unblock when ajax activity stops 
+	$().ajaxStop($.unblockUI);
+	
+	//function test() {
+	//	$.ajax({ url: 'about-oconnells-nature-prints.php', cache: false }); 
+	//}
+
+	$(document).ready(function() {
+		$('#stall').click(function() {
+			$.blockUI({ message: '<BR><SPAN STYLE="font: 12pt verdana, arial, sans-serif; color: #664400; font-weight: bold">Processing payment...please wait</SPAN><BR><BR>' });
+			//test();
+		});
+
+
+    $('.slideshow').cycle({
+     		// choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		fx: 'fade', 
+    		speed:  4200 
+	});
+
+	});
+
+});
+
+
+
+function jumpPage(newLoc) {
+	newPage = newLoc.options[newLoc.selectedIndex].value;
+	if ( newPage != "" ) {
+		location.href = newPage;
+	}
+}
+
+</script>
+
+
+<BODY TOPMARGIN=0 LEFTMARGIN=0 MARGINHEIGHT=0 MARGINWIDTH=0 BGCOLOR="#FFFFFF" BACKGROUND="images/brown_backer.gif">
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BACKGROUND="images/brown_backer.gif"><TR><TD>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="black" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1"></TD></TR></TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" width=1028>
+	<TR valign=top>
+		<TD width=446><IMG SRC="images/yellowstone_report.gif" WIDTH="446" HEIGHT="56"></TD>
+		<TD align=right style="font-size:8pt; font-weight:bold; color:white; padding-top:5px; padding-right:5px;">Produced by The Wild Side LLC</TD>
+	</TR>
+</TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="black" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1"></TD></TR></TABLE>
+
+
+
+<!-- http://www.malsup.com/jquery/cycle/ -->
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BACKGROUND="images/brown_backer.gif">
+	<TR>
+		<TD>
+		<DIV CLASS="slideshow" ID="rotater" STYLE="display:none">
+									<IMG SRC="images/banners/63.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/111.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/103.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/99.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/95.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/49.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/106.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/104.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/101.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/82.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/89.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/54.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/92.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/74.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/59.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/93.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/98.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/46.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/102.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/107.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/94.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/81.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/58.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/109.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/110.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/91.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/108.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/50.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/55.jpg" WIDTH="1028" HEIGHT="100">
+											<IMG SRC="images/banners/100.jpg" WIDTH="1028" HEIGHT="100">
+							</DIV>
+		</TD>
+	</TR>
+</TABLE>
+
+
+
+</TD></TR></TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="black" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1"></TD></TR></TABLE>
+
+
+<TABLE WIDTH="100%" BORDER=0 CELLPADDING=3 CELLSPACING=0 BGCOLOR="#006600"><TR><TD>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="1020">
+	<TR><FORM ACTION="/login.php" METHOD="post">
+		<TD WIDTH="30"><IMG SRC="images/spacer.gif" WIDTH="30" HEIGHT="16"></TD>
+		<TD BGCOLOR="#006600">
+
+					<SPAN CLASS="nav"><A HREF="index.php">Home</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="search.php">Reports</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="reporters.php">The reporters:</A></SPAN>
+
+			<SELECT NAME="select_list" onChange="jumpPage(this.form.select_list);" CLASS="drop_down" STYLE="font-size: 8pt; width:150px">
+			<OPTION VALUE="">Choose ...</OPTION>
+			<OPTION VALUE='search.php?action=search&author_id=7&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Editor of Yellowstone Reports</OPTION><OPTION VALUE='search.php?action=search&author_id=18&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Rick Lamplugh</OPTION><OPTION VALUE='search.php?action=search&author_id=19&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Sandy Sisti</OPTION><OPTION VALUE='search.php?action=search&author_id=21&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Jimmy Jones</OPTION><OPTION VALUE='search.php?action=search&author_id=22&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Russ Kehler</OPTION><OPTION VALUE='search.php?action=search&author_id=5&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Laurie Lyman</OPTION><OPTION VALUE='search.php?action=search&author_id=12&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Michael Leach</OPTION><OPTION VALUE='search.php?action=search&author_id=14&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Leo Leckie</OPTION><OPTION VALUE='search.php?action=search&author_id=17&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Ilona Popper</OPTION><OPTION VALUE='search.php?action=search&author_id=9&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Dave Hornoff</OPTION><OPTION VALUE='search.php?action=search&author_id=4&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Dan Hartman</OPTION><OPTION VALUE='search.php?action=search&author_id=1&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Dr. Nathan Varley</OPTION><OPTION VALUE='search.php?action=search&author_id=6&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Linda Thurston</OPTION><OPTION VALUE='search.php?action=search&author_id=2&start_year=2002&start_month=01&start_day=01&end_year=2016&end_month=11&end_day=08'>Mike O'Connell</OPTION>			</SELECT>
+
+			<SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="account.php">My account</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="about-yellowstone-reports.php">About us</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="contact.php">Contact us</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="faqs-yellowstone-reports.php">FAQs/Help</A></SPAN> <SPAN STYLE="color:white">|</SPAN>
+			<SPAN CLASS="nav"><A HREF="login.php?logout=1">Logout</A></SPAN>
+				</TD>
+	</TR></FORM>
+</TABLE>
+</TD></TR></TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="black" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1"></TD></TR></TABLE>
+
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BGCOLOR="FFFFE9"><TR><TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH=1020 BGCOLOR="FFFFE9"><TR><TD ALIGN=RIGHT>
+</TD></TR></TABLE>
+</TD></TR></TABLE>
+
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BGCOLOR="FFFFE9"><TR><TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH=770 BGCOLOR="FFFFE9">
+	<TR VALIGN=TOP>
+		<TD WIDTH="20"><IMG SRC="images/spacer.gif" WIDTH="20" HEIGHT="600"></TD>
+		<TD WIDTH="750"><BR>
+
+
+
+	<!-- <FORM><DIV ALIGN=RIGHT><INPUT TYPE="button" VALUE="Close window" onClick="window.close()"></DIV></FORM> -->
+
+
+<script type="text/JavaScript">
+//courtesy of BoogieJack.com
+function killCopy(e){
+	return false
+}
+function reEnable(){
+	return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+	document.onmousedown=killCopy
+	document.onclick=reEnable
+}
+</script>
+
+
+
+<!-- <DIV ALIGN=RIGHT> -->
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%">
+	<TR VALIGN=TOP>
+		<TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="#CCCCCC"><TR><TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" BGCOLOR="#FFFFD5" HEIGHT=24>
+	<TR>
+		<TD><A HREF="index.php"><IMG SRC='images/arrow_rotate_clockwise.png' WIDTH=16 HEIGHT=16 BORDER=0></A></TD>
+		<TD><NOBR><SPAN CLASS="pf"><A HREF="index.php">Return home</A></SPAN></NOBR></TD>
+	</TR>
+</TABLE>
+</TD></TR></TABLE>
+		</TD>
+		<TD ALIGN=RIGHT>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="#CCCCCC"><TR><TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" BGCOLOR="#FFFFD5" HEIGHT=24>
+	<TR>
+		<TD>
+				</TD>
+		<TD><NOBR>
+					<SPAN CLASS="pf">No printer-friendly version for this reporter</SPAN>
+				</NOBR></TD>
+	</TR>
+</TABLE>
+</TD></TR></TABLE>
+		</TD>
+	</TR>
+</TABLE>
+<!-- </DIV> -->
+<IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR>
+
+
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="#CCCCCC"><TR><TD>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="10" WIDTH="100%" BGCOLOR="#FFFFD5">
+	<TR VALIGN=TOP>
+		<TD>
+		<B CLASS="header">Prospect 996M Group, Junctions, Prospect Blacktail     10-13-16</B><BR>
+		<IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR>
+				<I>by Laurie Lyman</I>
+		</TD>
+		<TD ALIGN=RIGHT><NOBR><I>
+		Oct. 13, 2016		</I></NOBR></TD>
+	</TR>
+</TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" WIDTH="100%" BGCOLOR="#CCCCCC">
+	<TR>
+		<TD><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=1></TD>
+	</TR>
+</TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="10" BGCOLOR="#FFFFFF">
+	<TR VALIGN=TOP>
+		<TD><BR>
+
+		
+		Hi Everyone ~<BR>
+<BR>
+Well, you spend all the time looking and looking and waiting and waiting and then one day......it pays off. &nbsp;Today was one of those days. &nbsp;It all came together including great weather. &nbsp;It was still chilly this AM but when the watching is good, you don't feel it! &nbsp;I think that we had 20 degrees first thing.<BR>
+<BR>
+<strong>Prospect 996M&nbsp;&nbsp;Group ~</strong> Linda H. discovered the Prospect 996M Group on top of the Jasper Bench. &nbsp;They were all bedded and we had a count of 8, 5 blacks and 3 grays. &nbsp;When they began to move, we were able to get a good look as to who was who. &nbsp;We had some behavior that explained a lot about what is happening with these wolves. &nbsp;The big male that is blackish with lots of &nbsp;silver tinges is the dominant male in this group or would be the alpha male if they stay together. &nbsp;When I first saw him, he was on top of 964M with his front legs wrapped around 964's backend. &nbsp;That was very telling and then the male went over and scent marked, raised leg, on a bush and a female came along with some gray on the belly and a large bar-like chest mark and scent marked over the males marking with a flexed leg urination. &nbsp;That is a huge indication that this would be the alpha pair if this group of wolves continue together. &nbsp;He has a huge bar on his chest and she has one, too, so that helps. &nbsp;Others there included a gray pup, 996M, the dark-throated female yearling, the dark black male that has been with this group, and another black yearling. &nbsp;<BR>
+<BR>
+The group were all full as ticks so possibly a carcass in the area. &nbsp;We left them all sacked out and went to Antelope to look for Junctions.<BR>
+<BR>
+When we returned from the Junctions, 996M and group were bedded just on the south side of the road as you come out of Lamar Canyon East. &nbsp;Those that had stayed with the them had them leave the bench and go tot he west thinking that they would come out on the Slough side but that did not happen. &nbsp;The circled back and stayed on the Lamar side just a little south and west of Fishermen's Pullout. &nbsp;We had 6 bedded on and around the rocks. &nbsp;The two missing were the gray pup and the black yearling.<BR>
+<BR>
+Once again the dominant female came over and did a flex leg urination. &nbsp;The gray female yearling was there and when she saw the black female she crouched down and tucked her tail as the black gave her a good look over. &nbsp;Then the black female went to the dominant male and poked him. &nbsp;He did get up and he put his head over her back and licked her shoulders. &nbsp;<BR>
+<BR>
+964M came up and he saw the dominant black male and began to quietly tip toe very slowly away from him before bedding. &nbsp;So again, submissive behavior from the gray female yearling and 964M to the dominant pair.&nbsp;<BR>
+<BR>
+The males headed south onto a little ridge flat on the west end of the bench. &nbsp;964M went off to the right by himself and we did not see him again or the two females. &nbsp;We left around 5:15 with the black males still bedded.<BR>
+<BR>
+At 6:20, additional wolves come in. &nbsp;There was a count of 10, so I guess two more had joined the party. &nbsp;The main one was 966M the alpha male from Prospect. &nbsp;He must be suspicious of this other &nbsp;"dominant male" we are calling Black Bar. &nbsp;When 966M came in Black Bar was very submissive to 966M as was 964M. &nbsp;Ahhhhh...things change when the big guy is in town. &nbsp;That is why he probably came back from the Blacktail to see what mischief his wolves were in. &nbsp;I do not think that Black Bar is a Prospect but maybe came in like Twin did from another pack maybe outside the park. &nbsp;Black Bar must know that he is not related to the females. &nbsp;Anyway, Big Daddy 966M came back into town to sort things out amongst is rebellious underlings.<BR>
+<BR>
+Good old 763M is relaxing on the Blacktail in his retirement years happy that he is not having to deal with such things! &nbsp; &nbsp; &nbsp; &nbsp;<BR>
+<BR>
+<strong>Junctions ~ &nbsp;</strong>Doug M. had them when we arrived this morning. &nbsp;They, too, were all sacked out. &nbsp;It was a while before they started to stir. &nbsp;The female yearling had been up and antsy for the others to move so when she saw them stirring, she returned to them to rally the troops. &nbsp;907 and 969 took the lead and the others followed. &nbsp;We had ten; missing one gray pup. &nbsp;The black female yearling had her tail in the air as has been the case the last couple of months. &nbsp;The two female mothers, 969F and 907F, seem to have a good, strong bond. &nbsp;That will all change when the breeding season draws closer. &nbsp;<BR>
+<BR>
+When they began to travel, we had no idea how far they would go. &nbsp;They just kept going and going crossing the whole expanse of Antelope from the west side to the east side. &nbsp;Antelope is about 4.5 miles south from the Tower store. &nbsp;They traveled down to Antelope Creek and we thought that we had lost them but they popped up going up the slope out of the creek. &nbsp;They continued on &nbsp;and soon we had elk running everywhere with the wolves right on their heels. &nbsp;We had calves and cows in complete chaos. &nbsp;The wolves did come close to a calf and I believe I saw one making contact with a cow. &nbsp;We did lose them for good then as they disappeared on the heels of the elk into a gully with lots and lots of trees.<BR>
+<BR>
+<strong>Prospect Blacktail ~ </strong>&nbsp;Calvin and Lynette did find two blacks and a gray on their way in tonight on the Blacktail so at least some of them have made it home.<BR>
+<BR>
+Until tomorrow,<BR>
+Laurie<BR>
+<a href="http://yellowstonereports.com/">yellowstonereports.com</a><BR>
+Please do not forward, post,<BR>
+paraphrase, publish in any<BR>
+form, or copy for distribution<BR>
+Laurie Lyman Copyright 2016 &nbsp; &nbsp; &nbsp;&nbsp;<BR>		
+		
+		</TD><TD WIDTH=150><BR><TABLE CELLPADDING=1 CELLSPACING=0 BORDER=0 BGCOLOR='#006600'><TR><TD><TABLE CELLPADDING=5 CELLSPACING=0 BORDER=0 BGCOLOR='#FFFFFF'><TR><TD BGCOLOR='#006600'><B CLASS='white'>Photos</B><BR></TD></TR><TR><TD ALIGN=CENTER><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=3><BR>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="#CCCCCC" WIDTH="100%"><TR><TD>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" BGCOLOR="#FFFFD5" WIDTH="100%">
+	<TR>
+		<TD WIDTH=16><A HREF="JavaScript:void(0)" onClick="popup('slide_show.php?cid=4916')"><IMG SRC='images/camera.png' WIDTH=16 HEIGHT=16 BORDER=0></A></TD>
+		<TD><NOBR><SPAN CLASS="pf"><A HREF="JavaScript:void(0)" onClick="popup('slide_show.php?cid=4916')">View slide show</A></SPAN></NOBR></TD>
+	</TR>
+</TABLE>
+</TD></TR></TABLE>
+<IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR>
+
+<SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14497&img=14497.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14497_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Prospect on Jasper Bench</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14498&img=14498.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14498_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Prospect dark black</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14499&img=14499.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14499_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Prospect on the bench</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14500&img=14500.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14500_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Black Bar dominant male of Prospect Group when 966M is not around</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14501&img=14501.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14501_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Prospects on the Jasper Bench this morning</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14502&img=14502.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14502_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Bison crossing the Lamar giving the birds a lift</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14503&img=14503.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14503_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Black Bar again</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=7><BR><SPAN CLASS='image'><A HREF="JavaScript:void(0)" onClick="popup('image_pop.php?iid=14504&img=14504.jpg')"><SPAN CLASS='pop'><IMG SRC='photos/14504_t.jpg' WIDTH = 150 BORDER=1></A></SPAN><div style='margin-bottom:2px;'></div><span style='font-size:9pt;'>Junctions on Honeymoon at Antelope</span><br><IMG SRC='images/spacer.gif' WIDTH=1 HEIGHT=3><BR></TD></TR></TABLE></TD></TR></TABLE><BR>
+		</TD>
+	</TR>
+</TABLE>
+
+</TD></TR></TABLE><BR>
+
+
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+ <!--
+
+function openWin( windowURL, windowName, windowFeatures ) { 
+	return window.open( windowURL, windowName, windowFeatures ) ; 
+}
+
+function popup(url) {
+	params  = 'width='+screen.width;
+	params += ', height='+screen.height;
+	params += ', top=0, left=0'
+	params += ', fullscreen=yes';
+	params += ', resizable=yes';
+	params += ', scrollbars=yes';
+	 newwin=window.open(url,'windowname4', params);
+	if (window.focus) {
+		newwin.focus()
+	}
+	return false;
+}
+
+function printer_popup(url) {
+	var width  = 620;
+	var height = 700;
+	var left   = (screen.width  - width)/2;
+	var top    = ((screen.height - height)/2) + 50;
+	var params = 'width='+width+', height='+height;
+	params += ', top='+top+', left='+left;
+	params += ', directories=no';
+	params += ', location=no';
+	params += ', menubar=no';
+	params += ', resizable=yes';
+	params += ', scrollbars=yes';
+	params += ', status=no';
+	params += ', toolbar=no';
+	newwin=window.open(url,'windowname5', params);
+	if (window.focus) {
+		newwin.focus()
+	}
+	return false;
+}
+
+ // -->
+</SCRIPT>
+
+
+
+
+
+		</TD>
+	</TR>
+</TABLE>
+
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="white" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="4"></TD></TR></TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="black" WIDTH="100%"><TR><TD><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="1"></TD></TR></TABLE>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" BACKGROUND="images/brown_backer.gif" WIDTH="100%"><TR><TD>
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="5" WIDTH=770>
+	<TR VALIGN=TOP>
+		<TD WIDTH="10"><IMG SRC="images/spacer.gif" WIDTH="10" HEIGHT="20"></TD>
+		<TD WIDTH="350"><IMG SRC="images/spacer.gif" WIDTH="350" HEIGHT="7"><BR><SPAN STYLE="font-size: 7pt; color:#FFFFFF">&copy; 2009-2016 Yellowstone Reports. All Rights Reserved.</SPAN></TD>
+		<TD WIDTH="350" ALIGN=RIGHT><!-- 
+<IMG SRC="images/spacer.gif" WIDTH="350" HEIGHT="7"><BR><SPAN STYLE="font-size: 7pt">
+<A HREF="terms.php" STYLE="color:#CCCCCC">Terms and conditions</A>
+&nbsp;&nbsp;
+<A HREF="privacy.php" STYLE="color:#CCCCCC">Privacy policy</A>
+		</SPAN><BR><IMG SRC="images/spacer.gif" WIDTH="1" HEIGHT="36">
+ --><BR>&nbsp;</TD>
+	</TR>
+</TABLE>
+
+</TD></TR></TABLE>
+</TD></TR></TABLE>
+
+<SCRIPT TYPE="text/javascript">
+	rotater.style.display = 'block';
+</SCRIPT>
+
+</BODY>
+</HTML>
